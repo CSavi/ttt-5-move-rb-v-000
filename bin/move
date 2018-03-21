@@ -12,4 +12,4 @@ puts "What character would you like to use?"
 
 move(board, index, players_character)
 
-puts board
+puts display_board(board)
