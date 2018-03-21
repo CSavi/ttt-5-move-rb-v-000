@@ -7,6 +7,7 @@ puts "Where would you like to go?"
 user_input = gets.strip
 index = input_to_index(user_input)
 
+players_character = "X"
 puts "What character would you like to use?"
 
 move(board, index, players_character)
